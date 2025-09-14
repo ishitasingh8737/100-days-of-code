@@ -2,7 +2,7 @@
 
 int main() {
     int n, i;
-    unsigned long long product = 1; 
+    unsigned long long product = 1;     
 
     
     printf("Enter a positive number: ");

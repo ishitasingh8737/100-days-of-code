@@ -16,4 +16,4 @@ int main() {
         num /= 10;                  
     }
 
-    printf("Reversed number
+    printf("Reversed number")
