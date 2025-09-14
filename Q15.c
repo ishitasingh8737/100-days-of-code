@@ -3,11 +3,11 @@
 int main() {
     char ch;
 
-    // Taking input
-    printf("Enter a character: ");
-    scanf(" %c", &ch);   // space before %c ignores leftover newline
 
-    // Conditional checks
+    printf("Enter a character: ");
+    scanf(" %c", &ch);   
+
+    
     if (ch >= 'A' && ch <= 'Z') {
         printf("%c is an Uppercase Alphabet\n", ch);
     } else if (ch >= 'a' && ch <= 'z') {
