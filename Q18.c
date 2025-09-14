@@ -23,4 +23,4 @@ int main() {
     else if (percentage >= 0 && percentage < 60) {
         printf("Grade F\n");
     } 
-    else {
+    else }
