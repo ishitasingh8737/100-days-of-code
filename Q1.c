@@ -20,4 +20,3 @@ int main() {
     return 0;
 }
 
-c:\Users\ISHITA SINGH\OneDrive\Pictures\Screenshots\Screenshot 2025-09-13 203427.png
