@@ -1,19 +1,18 @@
 #include <stdio.h>
-#include <math.h>   // for pow()
+#include <math.h>   
 
 int main() {
     float principal, rate, time;
     float simpleInterest, compoundInterest;
 
-    // Taking inputs
+    
     printf("Enter Principal, Rate, and Time: ");
     scanf("%f %f %f", &principal, &rate, &time);
 
-    // Calculations
+
     simpleInterest = (principal * rate * time) / 100;
     compoundInterest = principal * pow((1 + rate / 100), time) - principal;
 
-    // Output
     printf("Simple Interest=%.2f, Compound Interest=%.2f\n", simpleInterest, compoundInterest);
 
     return 0;
