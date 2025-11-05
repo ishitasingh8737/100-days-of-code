@@ -5,7 +5,7 @@ int main() {
     int age;
     fp = fopen("info.txt", "w");
     if(fp == NULL) {
-        printf("Sorry sir, file not created 😢\n");
+        printf("Sorry sir, file not created \n");
         return 0;
     }
     printf("Enter your name: ");

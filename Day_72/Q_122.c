@@ -4,7 +4,7 @@ int main() {
     char data[100];
     fp = fopen("info.txt", "r");
     if(fp == NULL) {
-        printf("File not found 😢\n");
+        printf("File not found \n");
         return 0;
     }
     printf("Reading data from file...\n\n");
@@ -12,6 +12,6 @@ int main() {
         printf("%s", data);  
     }
     fclose(fp);
-    printf("\n\nFile reading completed successfully 😎\n");
+    printf("\n\nFile reading completed successfully \n");
     return 0;
 }
