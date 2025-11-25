@@ -1,3 +1,6 @@
+/*Q2 (User Inputs, Operations & Output)
+Write a program to input two numbers and display their sum, difference, product, and quotient.*/
+
 #include <stdio.h>
 
 int main() {

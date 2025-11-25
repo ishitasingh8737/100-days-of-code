@@ -1,3 +1,6 @@
+/*Q6 (User Inputs, Operations & Output)
+Write a program to swap two numbers using a third variable.*/
+
 #include <stdio.h>
 
 int main() {

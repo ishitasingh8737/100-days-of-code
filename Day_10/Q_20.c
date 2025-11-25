@@ -1,13 +1,14 @@
+/*Q20 (Conditional Statements)
+Write a program to display the day of the week based on a number (1–7) using switch-case.*/
+
 #include <stdio.h>
 
 int main() {
     int day;
 
-    
-    printf("Enter a number (1-7) for the day of the week: ");
+    printf("Enter a number (1-7): ");
     scanf("%d", &day);
 
-    
     switch(day) {
         case 1:
             printf("Monday\n");
@@ -31,8 +32,9 @@ int main() {
             printf("Sunday\n");
             break;
         default:
-            printf("Invalid input! Enter a number between 1 and 7.\n");
+            printf("Invalid day number!\n");
     }
 
     return 0;
 }
+
