@@ -1,3 +1,7 @@
+/*Q27 (Loops without Arrays/Strings)
+Write a program to print the sum of the first n odd numbers.
+*/
+
 #include <stdio.h>
 
 int main() {
